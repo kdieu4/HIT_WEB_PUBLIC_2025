@@ -1,37 +1,119 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width
+    , initial-scale=1.0">
+    <title>Blocg</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
-<header>
-    <h1>Blog của Hoàng Thanh Diệu</h1>
-    <nav>
-        <a href="">Trang chủ</a> |
-        <a href="">Giới thiệu</a> |
-        <a href="">Bài viết</a> |
-        <a href="">Liên hệ</a>
-    </nav>
-</header>
 
-<body>
-    <h2>Bài viết đầu tiên</h2>
-    <img src="../image/bg3.png" alt="picture" width="200">
-    <p>Đây là bài viết đầu tiên trên blog của tôi.
-        Mình sẽ chia sẻ về hành trình học lập trình web
-        và những trải nghiệm thú vị...</p>
+<body style="background-color: #efefef;">
+    <div style="display: flex; align-items: center;flex-direction: column;">
+        <h2 style="color: #007ad2; ">Hoàng Thanh Diệu</h2>
+        <div
+            style="border: solid 2px #007ad2;border-radius: 50%;  width: 100px; height: 100px; background-image: url(https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg); background-size: cover;">
+        </div>
+        <p>Tôi là sinh viên ngành CNTT, yêu thích lập trình web và UI/UX</p>
+        <div style="width: 80vw;">
+            <div style="background-color: #fff; padding: 10px;">
+                <h3>Sở thích</h3>
+                <ul>
+                    <li>Đọc sách</li>
+                    <li>Chơi thể thao</li>
+                    <li>Du lịch</li>
+                </ul>
+            </div>
 
+
+            <h3>Kỹ năng</h3>
+            <table border="1" style="border-collapse: collapse; border: 1px #888 solid;">
+                <thead>
+                    <tr>
+                        <th style="padding: 20px; font-weight: bold; background-color: #007ad2; color: #fff; width: 40vw;"
+                            scope="col">Kỹ năng</th>
+                        <th style="padding: 20px; font-weight: bold; background-color: #007ad2; color: #fff; width: 40vw;"
+                            scope="col">Mức độ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="padding: 20px;" scope="row">HTML</td>
+                        <td style="padding: 20px;">Tốt</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 20px;" scope="row">CSS</td>
+                        <td style="padding: 20px;">Khá</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 20px;" scope="row">Java Script</td>
+                        <td style="padding: 20px;">Khá</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div style="width: 90vw;">
+            <div style="background-color: #fff; padding: 10px;">
+                <h2>Liên hệ</h2>
+                <form action="#">
+                    <div style="display: flex; flex-direction: column; padding: 6px; margin-bottom: 10px;">
+                        <label for="name" style="margin-bottom: 4px;">Họ tên:</label>
+                        <input type="text" name="name" id="n"
+                            style="border: solid 1px #888; border-radius: 20px; padding: 10px;">
+                    </div>
+                    <div style="display: flex; flex-direction: column; padding: 6px; margin-bottom: 10px;">
+                        <label for="email" style="margin-bottom: 4px;">Email:</label>
+                        <input type="email" name="email" id="e"
+                            style="border: solid 1px #888; border-radius: 20px; padding: 10px;">
+                    </div>
+                    <div style="display: flex; flex-direction: column; padding: 6px; margin-bottom: 10px;">
+                        <label for="mess" style="margin-bottom: 4px;">Lời nhắn:</label>
+                        <textarea name="mess" id="m"
+                            style="border: solid 1px #888; border-radius: 20px; padding: 10px;"></textarea>
+                    </div>
+                </form>
+            </div>
+
+            <div
+                style="display: flex; flex-direction: row; justify-content: center; background-color: #007ad2; padding: 10px;">
+                <a href="#" style="color: white; text-decoration: none;">Trang chủ</a>
+                <div style="color: #fff; margin-left: 4px; margin-right: 4px;">|</div>
+                <a href="#" style="color: white; text-decoration: none;">Giới thiệu</a>
+                <div style="color: #fff; margin-left: 4px; margin-right: 4px;">|</div>
+                <a href="#" style="color: white; text-decoration: none;">Bài viết</a>
+                <div style="color: #fff; margin-left: 4px; margin-right: 4px;">|</div>
+                <a href="#" style="color: white; text-decoration: none;">Liên hệ</a>
+            </div>
+
+
+            <div style="display: flex; flex-direction: row;">
+                <div style="width: 40vw; padding: 10px; background-color: #fff;">
+                    <h3>Bài viết đầu tiên</h3>
+                    <div
+                        style="border: 1px solid #007ad2; height: 100px; background-size: cover; background-image: url(https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg);">
+                    </div>
+                    <p>Đây là bài viết đầu tiên</p>
+                </div>
+                <div style="width: 60vw; padding: 10px; background-color: #eef5fd;">
+                    <h3>Bài nổi bật</h3>
+                    <div>
+                        Bạn có thể xem thêm bài viết về <i>"5 mẹo học HTML nhanh và hiệu quả"</i>
+                    </div>
+                </div>
+            </div>
+
+            <footer
+                style="padding: 10px; display: flex; background-color: #007ad2; padding: 10px; justify-content: center; color: #fff;">
+                ©️ 2025 Blog của Hoàng Thanh Diệu. All rights reserved.
+            </footer>
+        </div>
+
+    </div>
 </body>
-
-<footer>
-    <h3>Bài nổi bật</h3>
-    <p>&copy; 2025 Blog của Hoàng Thanh Diệu. All rights reserved</p>
-    <nav>
-        <a href="#privacy-policy">Privacy Policy</a> |
-        <a href="#terms">Terms of Service</a>
-    </nav>
-</footer>
 
 </html>
