@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-style: italic; */
+    box-sizing: border-box;
+}
+
+.wrap .item:nth-child(2n) {
+    color: green;
+    background-color: lightgray;
+}
+
+/* .wrap .item:nth-child(even){
+  color: green;
+  background-color: lightgray;
+} */
+
+/* .wrap .item:nth-child(4) {
+  color: green;
+  background-color: lightgray;
+}  */
+
+.wrap {
+    margin: 0 40px;
+}
+
+.note {
+    color: black;
+}
+
+p {
+    color: red;
+}
+
+th {
+    background-color: #FFE0B2;
+}
+
+.notStarted {
+    font-weight: bold;
+}
+
+h1 {
+    color: var(--primary-color);
+    font-size: var(--font-size-large);
+}
+
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-size-large: 40px;
+}
+.card {
+  width: max-content;
+  background-color: #f1f1f1;
+}
+.card__image {
+  width: 100%;
+  max-width: 200px;
+}
+.card__content {
+  padding: 10px;
+}
+.card__title {
+  font-size: 20px;
+}
+.card__description {
+  font-size: 16px;
+}
+.card__button {
+  padding: 5px 10px;
+}
+.card__button--red {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.card__button--disable {
+  background-color: gray;
+  color: white;
+  cursor: not-allowed;
+}
+.card__content i:nth-child(1){
+    color: blue;
+}
+.card__content i:nth-child(2){
+    color: green
+}
