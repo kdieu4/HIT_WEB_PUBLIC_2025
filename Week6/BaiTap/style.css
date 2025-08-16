@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+    color: white;
+    height: 50px;
+}
+
+.sticky-container {
+    height: 10vh;
+    position: sticky;
+    top: 0px;
+
+}
+
+.sticky-container p {
+    position: sticky;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.section1 {
+    margin: 20px;
+    height: 100vh;
+}
+
+.section2 {
+    margin: 20px;
+    height: 100vh;
+}
+
+.section3 {
+    margin: 20px;
+    height: 100vh;
+}
